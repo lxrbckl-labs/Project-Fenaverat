@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 # Runtime configuration (can be overridden at `docker run` time)
 ENV PORT=8048
